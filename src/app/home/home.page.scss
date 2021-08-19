@@ -1,27 +1,18 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-label {
+  font-size: 42px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-chip{
+  margin-top: 15px;
+  padding-inline: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  border-width: 3px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+h2 {
+  font-weight: lighter;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
